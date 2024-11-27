@@ -1113,7 +1113,7 @@ p.achievement-img {
 }
 
 .slick-slide .slick-item{
-    padding-left: 100px;
+    padding-left: 0px;
     padding-right: 30px;
 }
 .slick-slide .slick-control-next{

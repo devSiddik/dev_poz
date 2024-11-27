@@ -126,29 +126,31 @@
     </header>
 
     <section class="slider-section" id="home" style="position: relative">
-        <div class="row m-column-reverse">
-            <div class="col-md-12 col-lg-6 col-sm-12" style="margin-top: 15px; position: relative">    
-                <div class="slick-slide">
-                    <div class="slick-item">    
-                        <p class="slide-title"><span class="color-text">ফ্রি</span> ট্রায়াল সহ শুরু করুন</p>
-                        <p class="slide-text">এক মাসের জন্য CyberPOZ এর সমস্ত প্রিমিয়াম ফিচার ব্যবহার করে আপনার ব্যবসাকে স্মার্ট করুন।</p>
-                        <a class="btn btn-slide" href="{{ route('business.getRegister') }}">ফ্রি ট্রায়াল</a>    
+        <div class="container">
+            <div class="row m-column-reverse">
+                <div class="col-md-12 col-lg-6 col-sm-12" style="margin-top: 15px; position: relative">    
+                    <div class="slick-slide">
+                        <div class="slick-item">    
+                            <p class="slide-title"><span class="color-text">ফ্রি</span> ট্রায়াল সহ শুরু করুন</p>
+                            <p class="slide-text">এক মাসের জন্য CyberPOZ এর সমস্ত প্রিমিয়াম ফিচার ব্যবহার করে আপনার ব্যবসাকে স্মার্ট করুন।</p>
+                            <a class="btn btn-slide" href="{{ route('business.getRegister') }}">ফ্রি ট্রায়াল</a>    
+                        </div>
+                        <div class="slick-item">
+                            <p class="slide-title">রিয়েল-টাইম <span class="color-text">রিপোর্টিং</span></p>
+                            <p class="slide-text">রিয়েল-টাইম সেলস, ইনভেন্টরি এবং পারফরমেন্স রিপোর্ট আপনার ব্যবসার প্রতিটি মুহূর্তে সিদ্ধান্ত নেওয়াকে সহজ করে।</p>
+                            <a class="btn btn-slide" href="javascript:void(0)">আরো জানুন</a>
+                        </div>
+                        <div class="slick-item">
+                            <p class="slide-title">ক্লাউড-বেজড <span class="color-text">ডেটা সিকিউরিটি</span></p>
+                            <p class="slide-text">আপনার সমস্ত ডেটা সুরক্ষিত রাখুন এবং যেকোনো ডিভাইস থেকে এক্সেস করুন। ক্লাউড স্টোরেজ এবং মাল্টি-লেয়ার সিকিউরিটি নিশ্চিত করুন।</p>
+                            <a class="btn btn-slide" href="#contactUs">যোগাযোগ করুন</a>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-md-12 col-lg-6 col-sm-12">
+                    <div class="slide-video">
+                        <img src="{{ asset('assets/landing_asset/images/new/10.png') }}" alt="">
                     </div>
-                    <div class="slick-item">
-                        <p class="slide-title">রিয়েল-টাইম <span class="color-text">রিপোর্টিং</span></p>
-                        <p class="slide-text">রিয়েল-টাইম সেলস, ইনভেন্টরি এবং পারফরমেন্স রিপোর্ট আপনার ব্যবসার প্রতিটি মুহূর্তে সিদ্ধান্ত নেওয়াকে সহজ করে।</p>
-                        <a class="btn btn-slide" href="javascript:void(0)">আরো জানুন</a>
-                    </div>
-                    <div class="slick-item">
-                        <p class="slide-title">ক্লাউড-বেজড <span class="color-text">ডেটা সিকিউরিটি</span></p>
-                        <p class="slide-text">আপনার সমস্ত ডেটা সুরক্ষিত রাখুন এবং যেকোনো ডিভাইস থেকে এক্সেস করুন। ক্লাউড স্টোরেজ এবং মাল্টি-লেয়ার সিকিউরিটি নিশ্চিত করুন।</p>
-                        <a class="btn btn-slide" href="#contactUs">যোগাযোগ করুন</a>
-                    </div>
-                </div>                    
-            </div>
-            <div class="col-md-12 col-lg-6 col-sm-12">
-                <div class="slide-video">
-                    <img src="{{ asset('assets/landing_asset/images/new/10.png') }}" alt="">
                 </div>
             </div>
         </div>
